@@ -1,11 +1,16 @@
+О проекте
+---
 Этот проект был сделан с помощью [Create React App](https://github.com/facebook/create-react-app).
 
 В каталоге проекта вы можете запустить:
 
 ### `npm start`
-
 Запускает приложение в режиме разработки.<br />
 Откроется проект в браузере по адресу [http://localhost:3000](http://localhost:3000)
+
+В проекте реализована авторизация/регистрация пользователя<br />
+Форма авторизация/регистрация состоит из поля `email` и `password`<br />
+Валидация полей осуществляется на сторое клиента
 ***
 
 Используемые библиотеки:
@@ -16,6 +21,12 @@
 * [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
 * [axios](https://github.com/axios/axios)
 ***
+
+Установка библиотек
+---
+```bash
+npm install redux redux-thunk react-redux react-router-dom axios
+```
 
 Backend
 ---
