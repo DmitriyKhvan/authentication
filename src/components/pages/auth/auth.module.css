@@ -1,0 +1,35 @@
+.auth {
+  display: flex;
+  justify-content: center;
+}
+
+.auth > div {
+  margin-top: 5rem;
+  width: 400px;
+}
+
+.auth h1 {
+  text-align: center;
+}
+
+.auth label {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttons button {
+  margin-right: 1rem;
+}
+
+.invalid_feedback_server {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
